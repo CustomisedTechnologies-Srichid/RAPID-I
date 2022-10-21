@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  RapidMath2D.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xutility(1762,22): warning C4244: '=': conversion from 'const wchar_t' to 'char', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xutility(1799): message : see reference to function template instantiation '_OutIt *std::_Copy_unchecked<const wchar_t*,char*>(_InIt,_InIt,_OutIt)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xutility(1799): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xutility(1799): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xutility(1799): message :             _OutIt=char *,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xutility(1799): message :             _InIt=const wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xutility(1799): message :         ]
+D:\Rapid-I\Source\RapidMath2D\Engine\RapidMath2D.cpp(1080): message : see reference to function template instantiation '_OutIt std::copy<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>(_InIt,_InIt,_OutIt)' being compiled
+D:\Rapid-I\Source\RapidMath2D\Engine\RapidMath2D.cpp(1080): message :         with
+D:\Rapid-I\Source\RapidMath2D\Engine\RapidMath2D.cpp(1080): message :         [
+D:\Rapid-I\Source\RapidMath2D\Engine\RapidMath2D.cpp(1080): message :             _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+D:\Rapid-I\Source\RapidMath2D\Engine\RapidMath2D.cpp(1080): message :             _Elem=wchar_t,
+D:\Rapid-I\Source\RapidMath2D\Engine\RapidMath2D.cpp(1080): message :             _InIt=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+D:\Rapid-I\Source\RapidMath2D\Engine\RapidMath2D.cpp(1080): message :         ]
+  RapidMath2D.vcxproj -> D:\Rapid-I\Builds\x64\Debug\RapidMath2D.dll
